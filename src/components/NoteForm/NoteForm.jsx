@@ -62,7 +62,7 @@ const NoteForm = (props)=>{
                 id={'myinput'} 
                 type="text" 
                 value = {note.value} 
-                placeholder = 'Введите вашу задачу' 
+                placeholder = 'Введите вашу заметку' 
                 onChange = {onChangeHandler}
                 /> 
 
