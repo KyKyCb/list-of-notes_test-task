@@ -1,0 +1,55 @@
+form{
+    min-height: 30px;
+    input {
+        box-sizing: border-box;
+        width: 75%;
+        height: 30px;
+
+        border: 1px solid #ccc;
+        border-radius: 5px;
+
+        margin-right: 10px;
+        padding: 0;
+
+        font-family: inherit;
+        font-size: 20px;
+
+        transition: background-color ease-in-out 100ms, box-shadow ease-in-out 100ms;
+        &:focus {
+            outline: none;
+            box-shadow: 0 0 0 2px rgb(116, 116, 116);
+        }
+
+    }
+    button {
+        background-color: #28a745; 
+
+        &:hover {
+            background-color: #208a39;
+        }
+
+        &:active {
+            background-color: #166127;
+        }
+
+        &:focus {
+            box-shadow: 0 0 0 2px rgba($color: #1da13c, $alpha: 0.7);
+            background-color: #208a39;
+        }
+    }
+}
+
+@media (max-width: 645px){
+    form{
+        input {
+            width: 70%;    
+        }
+    }
+}
+@media (max-width: 550px){
+    form{
+        input {
+            width: 100%;    
+        }
+    }
+}

@@ -1,0 +1,21 @@
+button {
+    margin: 0 auto;
+    box-sizing: border-box;
+    height: 30px;
+    border-radius: 5px;
+    border: none;
+
+    padding: 4px;
+
+    cursor: pointer;
+
+    font-family: inherit;        
+    font-size: 20px;
+    
+    color: #fff;
+
+    transition: background-color ease-in-out 100ms, box-shadow ease-in-out 100ms;    
+    &:focus {
+        outline: none;
+    }
+}

@@ -1,0 +1,46 @@
+
+.listOfNotes-form-change{
+    form{
+        width: 100%;
+    }
+}
+.listOfNotes-button-change {
+    background-color: #28a745; 
+
+    &:hover {
+        background-color: #208a39;
+    }
+
+    &:active {
+        background-color: #166127;
+    }
+
+    &:focus {
+        box-shadow: 0 0 0 2px rgba($color: #1da13c, $alpha: 0.7);
+        background-color: #208a39;
+    }
+}
+.listOfNotes-button-delete {
+    background-color: #bd2130; 
+
+    &:hover {
+        background-color: #9b1b28;
+    }
+
+    &:active {
+        background-color: #79131d;
+    }
+
+    &:focus {
+        box-shadow: 0 0 0 2px rgba($color: #d11a2c, $alpha: 0.7);
+        background-color: #9b1b28;
+    }
+}
+.tagName{
+    color: blue;
+    cursor: pointer;
+    &:hover{
+        text-decoration: underline;
+    }
+    
+}
